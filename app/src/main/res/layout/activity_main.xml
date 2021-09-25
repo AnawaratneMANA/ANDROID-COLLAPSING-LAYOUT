@@ -19,6 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
+            app:title="Hello World!"
             app:contentScrim="@color/colorPrimary"
             app:expandedTitleMarginStart="15dp"
             app:expandedTitleMarginBottom="20dp"
@@ -34,6 +35,11 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/art_wallpaper"
                 app:layout_collapseMode="parallax"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"/>
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/tool_bar"
