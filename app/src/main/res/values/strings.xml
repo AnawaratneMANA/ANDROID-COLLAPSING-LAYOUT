@@ -1,3 +1,19 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">collapsing-toolbar-layout</string>
+    <string name="about">About</string>
+    <string name="dummy_text" tools:ignore="StringEscaping">
+
+        no,
+        they\'re not wrong, but they don't teach
+        what you don't know you don't know, whereas
+        the one I link to makes this critical unknown unknown
+        become a known unknown and then a known known.
+        I didn't know you had a 1) local branch,
+        2) locally-stored remote-tracking branch, and
+        3) remote branch until I read that answer.
+        Prior to that I thought there was only a local branch
+        and remote branch. The locally-stored remote-tracking
+        branch was an unknown unknown.
+
+    </string>
 </resources>
