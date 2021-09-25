@@ -1,9 +1,9 @@
 package com.example.collapsing_toolbar_layout.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
-import androidx.appcompat.widget.Toolbar;
 
 import com.example.collapsing_toolbar_layout.R;
 
@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
-
 
     }
 }
